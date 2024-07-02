@@ -1,0 +1,9 @@
+LW R1,5
+LW R2,8
+LW R3,1
+BEQ R2,R0,_loop_end
+
+ADD R1,R1,R1
+SUB R2,R2,R3
+
+_loop_end:
